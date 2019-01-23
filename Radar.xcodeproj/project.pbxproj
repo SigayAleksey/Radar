@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B8346D521F85DC200E64521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8346D421F85DC200E64521 /* Assets.xcassets */; };
 		C3315D3B21EFCB7800A4B70A /* Aircraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3315D3A21EFCB7800A4B70A /* Aircraft.swift */; };
 		C36C0CC721F334C400259954 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36C0CC621F334C400259954 /* Calculation.swift */; };
 		C36C0CCC21F387E600259954 /* AircraftImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36C0CCB21F387E600259954 /* AircraftImage.swift */; };
 		C39585F521EE79E200A0D87F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39585F421EE79E200A0D87F /* AppDelegate.swift */; };
 		C39585F721EE79E200A0D87F /* RadarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39585F621EE79E200A0D87F /* RadarVC.swift */; };
-		C39585FC21EE79E300A0D87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39585FB21EE79E300A0D87F /* Assets.xcassets */; };
 		C39585FF21EE79E300A0D87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39585FD21EE79E300A0D87F /* LaunchScreen.storyboard */; };
 		C395860921EE952300A0D87F /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395860821EE952300A0D87F /* Position.swift */; };
 		C395860B21EE95A400A0D87F /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395860A21EE95A400A0D87F /* Ring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B8346D421F85DC200E64521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3315D3A21EFCB7800A4B70A /* Aircraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aircraft.swift; sourceTree = "<group>"; };
 		C36C0CC621F334C400259954 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
 		C36C0CCB21F387E600259954 /* AircraftImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircraftImage.swift; sourceTree = "<group>"; };
 		C39585F121EE79E200A0D87F /* Radar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39585F421EE79E200A0D87F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39585F621EE79E200A0D87F /* RadarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarVC.swift; sourceTree = "<group>"; };
-		C39585FB21EE79E300A0D87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/aleksejsigaj/Desktop/Get IT/Radar/Radar/Assets.xcassets"; sourceTree = "<absolute>"; };
 		C39585FE21EE79E300A0D87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C395860021EE79E300A0D87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C395860821EE952300A0D87F /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		C32952AC21F5012F0062E141 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				C39585FB21EE79E300A0D87F /* Assets.xcassets */,
+				5B8346D421F85DC200E64521 /* Assets.xcassets */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -174,8 +174,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8346D521F85DC200E64521 /* Assets.xcassets in Resources */,
 				C39585FF21EE79E300A0D87F /* LaunchScreen.storyboard in Resources */,
-				C39585FC21EE79E300A0D87F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
