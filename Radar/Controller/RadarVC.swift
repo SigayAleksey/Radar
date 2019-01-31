@@ -10,9 +10,9 @@ import UIKit
 
 class RadarVC: UIViewController {
     
-    let ringsCount = 20
-    let aircraftsCount = 100
-    let aircraftImage = UIImage(named: "imgAircraft")
+    private let ringsCount = 20
+    private let aircraftsCount = 100
+    private let aircraftImage = UIImage(named: "imgAircraft")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class RadarVC: UIViewController {
     }
 
     
-    func displayRings(ringsCount: Int, spaceBetweenRings: Int) {
+    private func displayRings(ringsCount: Int, spaceBetweenRings: Int) {
         let minimumDiameter = spaceBetweenRings * 2
         var currentDiameter = minimumDiameter
         let viewCenter = view.center
@@ -39,7 +39,7 @@ class RadarVC: UIViewController {
         }
     }
     
-    func displayAircrafts(aircraftsCount: Int, ringsCount: Int, spaceBetweenRings: Int) {
+    private func displayAircrafts(aircraftsCount: Int, ringsCount: Int, spaceBetweenRings: Int) {
         if aircraftsCount != 0 {
             let radarData = Calculation.radarData(aircraftsCount: aircraftsCount, ringsCount: ringsCount, spaceBetweenRings: spaceBetweenRings)
             

@@ -16,6 +16,7 @@
 		C39585FF21EE79E300A0D87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39585FD21EE79E300A0D87F /* LaunchScreen.storyboard */; };
 		C395860921EE952300A0D87F /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395860821EE952300A0D87F /* Position.swift */; };
 		C395860B21EE95A400A0D87F /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C395860A21EE95A400A0D87F /* Ring.swift */; };
+		C39D049E220384D300C5D977 /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = C39D049D220384D300C5D977 /* ReadMe */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C395860021EE79E300A0D87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C395860821EE952300A0D87F /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		C395860A21EE95A400A0D87F /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		C39D049D220384D300C5D977 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		C39585F321EE79E200A0D87F /* Radar */ = {
 			isa = PBXGroup;
 			children = (
+				C39D049D220384D300C5D977 /* ReadMe */,
 				C36C0CC921F33E3300259954 /* Controller */,
 				C32952AC21F5012F0062E141 /* Data */,
 				C36C0CC821F33E0900259954 /* Model */,
@@ -176,6 +179,7 @@
 			files = (
 				5B8346D521F85DC200E64521 /* Assets.xcassets in Resources */,
 				C39585FF21EE79E300A0D87F /* LaunchScreen.storyboard in Resources */,
+				C39D049E220384D300C5D977 /* ReadMe in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
